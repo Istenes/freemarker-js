@@ -3,7 +3,7 @@ var jarFile = "./FMRender-0.7.jar",
     path = require("path"),
     spawn = require('child_process').spawn;
 
-var freemarker = fremarker || {};
+var freemarker = freemarker || {};
 freemarker.process = function(args) {
     var dataModel = JSON.stringify(args.data);
     var settingsString = JSON.stringify(args.settings);
