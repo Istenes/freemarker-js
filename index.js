@@ -1,6 +1,6 @@
-var jarFile = "./FMRender-0.7.jar",
+var path = require("path"),
+    jarFile = path.join(__dirname, "FMRender-0.7.jar"),
     iconv = require("iconv-lite"),
-    path = require("path"),
     spawn = require('child_process').spawn;
 
 var freemarker = freemarker || {};
