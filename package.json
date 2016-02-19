@@ -1,6 +1,6 @@
 {
     "name": "freemarker-js",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "A freemarker processor for nodejs",
     "main": "index.js",
     "scripts": {
